@@ -1,2 +1,4 @@
 "use strict";
-let id = 5;
+const items = ["laptop", "phone", "mouse", "keyboard", "headphones"];
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+console.log(items);
