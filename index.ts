@@ -78,3 +78,21 @@ console.log(Kata.disemvowel("Hello"));
 console.log(Kata.disemvowel("This website is for losers LOL!"));
 */
 
+//PYRAMID ARRAY
+/* export const pyramid = (n: number): number[][] => {
+   const result: number[][] = [];
+
+   for(let i:number = 0; i < n; i++){
+      result.push(
+         "1".repeat(i + 1).split("").map(n => Number(n))
+      )
+   }
+
+   return result
+}
+
+console.log(pyramid(2))
+console.log(pyramid(3))
+console.log(pyramid(4))
+ */
+
